@@ -28,8 +28,8 @@
 ## 🛠️ Stack Technique
 
 <p align="center">
-    <img src="https://img.shields.io/badge/PHP+52.8%25-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP"/>
-    <img src="https://img.shields.io/badge/Twig+23.6%25-555555?style=for-the-badge&amp;logo=twig&amp;logoColor=white" alt="Twig"/>
+    <img src="https://img.shields.io/badge/PHP+53%25-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP"/>
+    <img src="https://img.shields.io/badge/Twig+23.5%25-555555?style=for-the-badge&amp;logo=twig&amp;logoColor=white" alt="Twig"/>
     <img src="https://img.shields.io/badge/JavaScript+7.4%25-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=white" alt="JavaScript"/>
     <img src="https://img.shields.io/badge/CSS+6.7%25-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS"/>
     <img src="https://img.shields.io/badge/TypeScript+5.7%25-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/>
