@@ -1,5 +1,5 @@
 en:
-  bio: "Symfony Developer."
+  bio: "Lead Developer Symfony (Symfony 7 Expert level Certified)"
   learning:
     - "Rust"
   ask_me_about:
@@ -7,10 +7,10 @@ en:
     - "Symfony"
     - "API Platform"
     - "Docker"
-  fun_fact: "I contribute to the Symfony ecosystem"
+  fun_fact: "I've contributed to the Symfony ecosystem"
 
 fr:
-  bio: "Lead Developer Symfony (Expert Symfony 7 Certifié)"
+  bio: "Lead Developer Symfony (Certifié Symfony 7 Niveau Expert)"
   learning:
     - "Rust"
   ask_me_about:
@@ -18,7 +18,7 @@ fr:
     - "Symfony"
     - "API Platform"
     - "Docker"
-  fun_fact: "Je contribue à l'écosystème Symfony"
+  fun_fact: "J'ai contribué à l'écosystème Symfony"
 
 socials:
   - label: "X/Twitter"
@@ -48,6 +48,14 @@ blog:
 github:
   top_repos_count: 5
   recent_repos_count: 5
+
+templates:
+  en:
+    template: "README.md.twig"
+    output: "README.md"
+  fr:
+    template: "README.fr.md.twig"
+    output: "README.fr.md"
 
 languages:
   PHP: "777BB4"

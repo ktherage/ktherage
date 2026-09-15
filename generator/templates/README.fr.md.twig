@@ -6,13 +6,13 @@
 
 <p align="center">
   {% if profile.location %}
-  <img src="https://img.shields.io/badge/Localisation-{{ profile.location|url_encode }}-blue?style=for-the-badge&logo=googlemaps&logoColor=white" alt="{{ profile.location }}"/>
+  <img src="{{ badge('Localisation '~profile.location, 'blue', {logo: 'googlemaps'}) }}" alt="{{ profile.location }}"/>
   {% endif %}
   {% for social in socials %}
-  <a href="{{ social.url }}"><img src="https://img.shields.io/badge/{{ social.label }}-{{ social.color }}?style=for-the-badge&logo={{ social.icon }}&logoColor=white" alt="{{ social.label }}"/></a>
+  {{ badge_link(social.url, social.label, social.color, {logo: social.icon})|raw }}
   {% endfor %}
-  <a href="https://ktherage.github.io/"><img src="https://img.shields.io/badge/Blog-EN-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Blog EN"/></a>
-  <a href="https://ktherage.github.io/fr/"><img src="https://img.shields.io/badge/Blog-FR-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Blog FR"/></a>
+  {{ badge_link('https://ktherage.github.io/', 'Blog EN', 'blue', {logo: 'googlechrome'})|raw }}
+  {{ badge_link('https://ktherage.github.io/fr/', 'Blog FR', 'blue', {logo: 'googlechrome'})|raw }}
 </p>
 
 ---
@@ -29,8 +29,8 @@
 ## 🛠️ Stack Technique
 
 <p align="center">
-  {% for lang in languages %}
-  <img src="https://img.shields.io/badge/{{ lang.name }}-{{ lang.color }}?style=for-the-badge&logo={{ lang.name|lower }}&logoColor=white" alt="{{ lang.name }}"/>
+  {% for l in languages %}
+  <img src="{{ lang_badge(l.name, l.color, l.percentage) }}" alt="{{ l.name }}"/>
   {% endfor %}
 </p>
 
@@ -59,7 +59,7 @@
 
 {% for article in blog_articles.fr %}
 ### [{{ article.title }}]({{ article.url }})
-<sub>{{ article.date }} · {{ article.tags|join(', ') }}</sub>
+<sub>{{ article.date|format_date(locale='fr') }} · {{ article.tags|join(', ') }}</sub>
 
 {{ article.excerpt|truncate(200) }}
 
