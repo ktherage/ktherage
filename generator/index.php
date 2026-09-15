@@ -14,8 +14,9 @@ use Symfony\Component\Yaml\Yaml;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
 
-final class GenerateProfileCommand extends Command
-{
+$app = new Application('profile-generator', '1.0.0');
+
+$app->add(new class extends Command {
     protected function configure(): void
     {
         $this
@@ -204,8 +205,7 @@ final class GenerateProfileCommand extends Command
 
         return $result;
     }
-}
+});
 
-$app = new Application();
-$app->add(new GenerateProfileCommand());
+$app->setDefaultCommand('generate', true);
 $app->run();

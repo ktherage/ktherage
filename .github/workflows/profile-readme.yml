@@ -23,7 +23,7 @@ jobs:
         working-directory: generator
 
       - name: Generate READMEs
-        run: php generator/index.php generate ${{ github.repository_owner }}
+        run: php generator/index.php ${{ github.repository_owner }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
