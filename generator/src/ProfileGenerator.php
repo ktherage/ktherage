@@ -27,18 +27,29 @@ final readonly class ProfileGenerator
             );
         }
 
-        // Phase 2 — consume.
-        $profile = $this->github->decode($profileResponse, 'fetch profile');
-        $repos = $this->collectRepos($reposResponse);
+        // Phase 2 — consume. On failure, cancel every in-flight response first:
+        // an unconsumed 4xx/5xx AsyncResponse would fatal in __destruct and mask our error.
+        $pending = [$profileResponse, $reposResponse, ...array_values($feedResponses)];
 
-        $feeds = [];
-        foreach ($feedResponses as $lang => $response) {
-            $feeds[$lang] = $this->github->decode($response, sprintf('fetch %s blog feed', $lang));
+        try {
+            $profile = $this->github->decode($profileResponse, 'fetch profile');
+            $repos = $this->collectRepos($reposResponse);
+
+            $feeds = [];
+            foreach ($feedResponses as $lang => $response) {
+                $feeds[$lang] = $this->github->decode($response, sprintf('fetch %s blog feed', $lang));
+            }
+
+            $activeRepos = $this->slimRepos($repos);
+            [$languages, $languageCount] = $this->collectLanguages($activeRepos);
+            $blogArticles = $this->parseArticles($feeds);
+        } catch (\Throwable $e) {
+            foreach ($pending as $response) {
+                $response->cancel();
+            }
+
+            throw $e;
         }
-
-        $activeRepos = $this->slimRepos($repos);
-        [$languages, $languageCount] = $this->collectLanguages($activeRepos);
-        $blogArticles = $this->parseArticles($feeds);
 
         $byStars = $activeRepos;
         usort($byStars, fn (array $a, array $b) => $b['stargazers_count'] <=> $a['stargazers_count']);
@@ -47,6 +58,8 @@ final readonly class ProfileGenerator
             'profile' => $profile,
             'repository_count' => count($repos),
             'language_count' => $languageCount,
+            'total_stars' => array_sum(array_column($activeRepos, 'stargazers_count')),
+            'total_forks' => array_sum(array_column($activeRepos, 'forks_count')),
             'top_repos' => array_slice($byStars, 0, $this->config['github']['top_repos_count']),
             'recent_repos' => array_slice($activeRepos, 0, $this->config['github']['recent_repos_count']),
             'languages' => $languages,
@@ -87,6 +100,7 @@ final readonly class ProfileGenerator
                 'description' => $repo['description'] ?? null,
                 'pushed_at' => $repo['pushed_at'] ?? null,
                 'stargazers_count' => (int) ($repo['stargazers_count'] ?? 0),
+                'forks_count' => (int) ($repo['forks_count'] ?? 0),
             ];
         }
 
@@ -108,10 +122,18 @@ final readonly class ProfileGenerator
 
         $totals = [];
 
-        foreach ($responses as $fullName => $response) {
-            foreach ($this->github->decode($response, sprintf('fetch languages of "%s"', $fullName)) as $name => $bytes) {
-                $totals[$name] = ($totals[$name] ?? 0) + $bytes;
+        try {
+            foreach ($responses as $fullName => $response) {
+                foreach ($this->github->decode($response, sprintf('fetch languages of "%s"', $fullName)) as $name => $bytes) {
+                    $totals[$name] = ($totals[$name] ?? 0) + $bytes;
+                }
             }
+        } catch (\Throwable $e) {
+            foreach ($responses as $response) {
+                $response->cancel();
+            }
+
+            throw $e;
         }
 
         arsort($totals);

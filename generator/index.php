@@ -38,6 +38,7 @@ $http = new RetryableHttpClient(
 
 $twig = new Environment(new FilesystemLoader($projectDir.'/templates'), [
     'cache' => sys_get_temp_dir().'/profile-generator/twig',
+    'auto_reload' => true,
     'strict_variables' => true,
 ]);
 $twig->addExtension(new AppExtension());

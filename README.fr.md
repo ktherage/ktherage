@@ -44,9 +44,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ktherage&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ktherage&theme=tokyonight&hide_border=true" alt="Streak Stats"/>
-</p>
+  <img src="https://img.shields.io/badge/Repos-17-blue?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repositories"/>  <img src="https://img.shields.io/badge/Stars-2-yellow?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Stars"/>    <img src="https://img.shields.io/badge/Followers-8-orange?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Followers"/></p>
 
 ---
 

@@ -39,8 +39,10 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username={{ profile.login }}&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user={{ profile.login }}&theme=tokyonight&hide_border=true" alt="Streak Stats"/>
+  {% if profile.public_repos > 0 %}<img src="{{ badge('Repos-'~profile.public_repos, 'blue', {logo: 'github'}) }}" alt="Repositories"/>{% endif %}
+  {% if total_stars > 0 %}<img src="{{ badge('Stars-'~total_stars, 'yellow', {logo: 'github'}) }}" alt="Stars"/>{% endif %}
+  {% if total_forks > 0 %}<img src="{{ badge('Forks-'~total_forks, 'green', {logo: 'github'}) }}" alt="Forks"/>{% endif %}
+  {% if profile.followers > 0 %}<img src="{{ badge('Followers-'~profile.followers, 'orange', {logo: 'github'}) }}" alt="Followers"/>{% endif %}
 </p>
 
 ---

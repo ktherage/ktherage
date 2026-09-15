@@ -89,11 +89,11 @@ final class ProfileGeneratorCommand extends Command
         try {
             $this->filesystem->mkdir($outputDir);
         } catch (IOExceptionInterface $e) {
-            throw new InvalidArgumentException(sprintf('Cannot create output directory "%s".', $outputDir), 0, $e);
+            throw new \InvalidArgumentException(sprintf('Cannot create output directory "%s".', $outputDir), 0, $e);
         }
 
         if (!is_dir($outputDir) || !is_writable($outputDir)) {
-            throw new InvalidArgumentException(sprintf('Output directory "%s" is not writable.', $outputDir));
+            throw new \InvalidArgumentException(sprintf('Output directory "%s" is not writable.', $outputDir));
         }
 
         return $outputDir;
