@@ -1,11 +1,11 @@
-<h1 align="center">Hey there ! 👋 I'm Thérage Kévin</h1>
+<h1 align="center">Hey there ! 👋 Je suis Thérage Kévin</h1>
 
 <p align="center">
-  <em>Symfony Developer.</em>
+  <em>Lead Developer Symfony (Expert Symfony 7 Certifié)</em>
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Location-Lille-blue?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Lille"/>
+    <img src="https://img.shields.io/badge/Localisation-Lille-blue?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Lille"/>
       <a href="https://x.com/KevinTherage"><img src="https://img.shields.io/badge/X/Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="X/Twitter"/></a>
     <a href="https://mastodon.social/@ktherage"><img src="https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=mastodon&logoColor=white" alt="Mastodon"/></a>
     <a href="https://bsky.app/profile/ktherage.bsky.social"><img src="https://img.shields.io/badge/Bluesky-0085FF?style=for-the-badge&logo=bluesky&logoColor=white" alt="Bluesky"/></a>
@@ -16,16 +16,16 @@
 
 ---
 
-## 🧑‍💻 About Me
+## 🧑‍💻 À propos
 
-- 🔭 I'm currently working on **@SensioLabs**
-- 🌱 I'm currently learning **Rust**
-- 💬 Ask me about **PHP, Symfony, API Platform, Docker**
-- ⚡ Fun fact: *I contribute to the Symfony ecosystem*
+- 🔭 Je travaille actuellement sur des projets **@SensioLabs**
+- 🌱 Je suis en train d'apprendre **Rust**
+- 💬 Demandez-moi sur **PHP, Symfony, API Platform, Docker**
+- ⚡ Fun fact: *Je contribue à l&#039;écosystème Symfony*
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Stack Technique
 
 <p align="center">
     <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
@@ -44,10 +44,10 @@
 
 ---
 
-## 🏆 Top Projects
+## 🏆 Top Projets
 
-| Project | Description | ⭐ |
-|---------|-------------|-----|
+| Projet | Description | ⭐ |
+|--------|-------------|-----|
 | [ktherage](https://github.com/ktherage/ktherage) | My GitHub Profile | 0 |
 | [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | Following rust-by-the-book | 0 |
 | [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | Personnal website of Kévin Thérage | 0 |
@@ -55,38 +55,38 @@
 
 ---
 
-## 📝 Latest Articles
+## 📝 Derniers Articles
 
-### [Symfony Silently Kills Your HTTP Cache When a Session Starts](https://ktherage.github.io/blog/2026/symfony-session-vs-http-cache/)
+### [Symfony tue silencieusement votre cache HTTP dès qu&#039;une session démarre](https://ktherage.github.io/fr/blog/2026/symfony-session-vs-http-cache/)
 <sub>Sep 2, 2026 · Symfony, PHP, HTTP Cache, API Platform, Security</sub>
 
-Your API Platform cacheHeaders say public, Symfony replies private, max-age=0. Blame AbstractSessionListener at priority -1000 — and its documented escape hatch Symfony-Session-NoAutoCacheControl.
+Vos cacheHeaders API Platform disent public, Symfony répond private, max-age=0. Coupable : l&#039;AbstractSessionListener en priorité -1000 et son échappatoire documentée NO_AUTO_CACHE_CONTROL_HEADER.
 
-### [Building a RAG-Powered Code Review Assistant with PHP, Ollama, and Qdrant](https://ktherage.github.io/blog/2026/building-a-rag-powered-code-review-assistant/)
+### [Construire un assistant de code review RAG avec PHP, Ollama et Qdrant](https://ktherage.github.io/fr/blog/2026/building-a-rag-powered-code-review-assistant/)
 <sub>Aug 10, 2026 · AI, Symfony, PHP, RAG, MCP, LLM, Ollama, Qdrant</sub>
 
-Ask an LLM to review your code and you&#039;ll get generic advice. Give it 10,000 Symfony Core code reviews as reference — and it&#039;ll produce reviews that sound like nicolas-grekas and stof reviewed your PR...
+Demandez à un LLM de review votre code et vous obtiendrez des conseils génériques. Donnez-lui 10 000 code reviews du Core Symfony en référence — et il produira des reviews qui sonnent comme si nicolas...
 
-### [The Cache That Didn&#039;t Cache: A Symfony Serialization Story](https://ktherage.github.io/blog/2026/the-cache-that-silently-wasnt/)
-<sub>Jun 10, 2026 · Symfony, PHP, Debug, Cache, Serialization</sub>
+### [Le cache qui ne fonctionnait pas : une histoire de sérialisation chez Symfony](https://ktherage.github.io/fr/blog/2026/le-cache-qui-ne-fonctionnait-pas/)
+<sub>Jun 10, 2026 · Symfony, PHP, Debug, Cache, Sérialisation</sub>
 
-The logs said the cache was working. The filesystem could testify to it. Here is how a hidden Closure in getInfo(), silent exception handling, and an ignored return value created a perfect, silent nig...
+Les logs disaient que le cache fonctionnait. Le filesystem pouvait en témoigner. Voici comment une Closure cachée dans getInfo(), une gestion d&#039;exception silencieuse, et une valeur de retour ignorée o...
 
 
 ---
 
-## 🕐 Recent Activity
+## 🕐 Activité Récente
 
-| Project | Last Push |
-|---------|-----------|
-| [ktherage](https://github.com/ktherage/ktherage) | Sep 15, 2026 |
-| [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | Sep 8, 2026 |
-| [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | Sep 7, 2026 |
-| [symfony-docs](https://github.com/ktherage/symfony-docs) | Aug 26, 2026 |
-| [symfony](https://github.com/ktherage/symfony) | Aug 24, 2026 |
+| Projet | Dernier Push |
+|--------|-------------|
+| [ktherage](https://github.com/ktherage/ktherage) | 15 Sep 2026 |
+| [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | 8 Sep 2026 |
+| [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | 7 Sep 2026 |
+| [symfony-docs](https://github.com/ktherage/symfony-docs) | 26 Aug 2026 |
+| [symfony](https://github.com/ktherage/symfony) | 24 Aug 2026 |
 
 ---
 
 <p align="center">
-  <sub>Auto-generated with ❤️ by <a href="https://github.com/ktherage/ktherage/tree/main/generator">Profile Generator</a> — Powered by Symfony & Twig</sub>
+  <sub>Généré avec ❤️ par <a href="https://github.com/ktherage/ktherage/tree/main/generator">Profile Generator</a> — Propulsé par Symfony & Twig</sub>
 </p>

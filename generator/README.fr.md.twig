@@ -1,0 +1,82 @@
+<h1 align="center">Hey there ! 👋 Je suis {{ profile.name }}</h1>
+
+<p align="center">
+  <em>{{ lang.bio }}</em>
+</p>
+
+<p align="center">
+  {% if profile.location %}
+  <img src="https://img.shields.io/badge/Localisation-{{ profile.location|url_encode }}-blue?style=for-the-badge&logo=googlemaps&logoColor=white" alt="{{ profile.location }}"/>
+  {% endif %}
+  {% for social in socials %}
+  <a href="{{ social.url }}"><img src="https://img.shields.io/badge/{{ social.label }}-{{ social.color }}?style=for-the-badge&logo={{ social.icon }}&logoColor=white" alt="{{ social.label }}"/></a>
+  {% endfor %}
+  <a href="https://ktherage.github.io/"><img src="https://img.shields.io/badge/Blog-EN-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Blog EN"/></a>
+  <a href="https://ktherage.github.io/fr/"><img src="https://img.shields.io/badge/Blog-FR-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Blog FR"/></a>
+</p>
+
+---
+
+## 🧑‍💻 À propos
+
+- 🔭 Je travaille actuellement sur des projets **{{ profile.company }}**
+- 🌱 Je suis en train d'apprendre **{{ lang.learning|join(', ') }}**
+- 💬 Demandez-moi sur **{{ lang.ask_me_about|join(', ') }}**
+- ⚡ Fun fact: *{{ lang.fun_fact }}*
+
+---
+
+## 🛠️ Stack Technique
+
+<p align="center">
+  {% for lang in languages %}
+  <img src="https://img.shields.io/badge/{{ lang.name }}-{{ lang.color }}?style=for-the-badge&logo={{ lang.name|lower }}&logoColor=white" alt="{{ lang.name }}"/>
+  {% endfor %}
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username={{ profile.login }}&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user={{ profile.login }}&theme=tokyonight&hide_border=true" alt="Streak Stats"/>
+</p>
+
+---
+
+## 🏆 Top Projets
+
+| Projet | Description | ⭐ |
+|--------|-------------|-----|
+{% for repo in top_repos %}
+| [{{ repo.name }}]({{ repo.html_url }}) | {{ repo.description|truncate(80) }} | {{ repo.stargazers_count }} |
+{% endfor %}
+
+---
+
+## 📝 Derniers Articles
+
+{% for article in blog_articles.fr %}
+### [{{ article.title }}]({{ article.url }})
+<sub>{{ article.date }} · {{ article.tags|join(', ') }}</sub>
+
+{{ article.excerpt|truncate(200) }}
+
+{% endfor %}
+
+---
+
+## 🕐 Activité Récente
+
+| Projet | Dernier Push |
+|--------|-------------|
+{% for repo in recent_repos %}
+| [{{ repo.name }}]({{ repo.html_url }}) | {{ repo.pushed_at|date('j M Y') }} |
+{% endfor %}
+
+---
+
+<p align="center">
+  <sub>Généré avec ❤️ par <a href="https://github.com/ktherage/ktherage/tree/main/generator">Profile Generator</a> — Propulsé par Symfony & Twig</sub>
+</p>

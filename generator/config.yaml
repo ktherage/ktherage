@@ -1,0 +1,64 @@
+en:
+  bio: "Symfony Developer."
+  learning:
+    - "Rust"
+  ask_me_about:
+    - "PHP"
+    - "Symfony"
+    - "API Platform"
+    - "Docker"
+  fun_fact: "I contribute to the Symfony ecosystem"
+
+fr:
+  bio: "Lead Developer Symfony (Expert Symfony 7 Certifié)"
+  learning:
+    - "Rust"
+  ask_me_about:
+    - "PHP"
+    - "Symfony"
+    - "API Platform"
+    - "Docker"
+  fun_fact: "Je contribue à l'écosystème Symfony"
+
+socials:
+  - label: "X/Twitter"
+    url: "https://x.com/KevinTherage"
+    color: "000000"
+    icon: "x"
+  - label: "Mastodon"
+    url: "https://mastodon.social/@ktherage"
+    color: "6364FF"
+    icon: "mastodon"
+  - label: "Bluesky"
+    url: "https://bsky.app/profile/ktherage.bsky.social"
+    color: "0085FF"
+    icon: "bluesky"
+  - label: "LinkedIn"
+    url: "https://www.linkedin.com/in/kevin-therage"
+    color: "0A66C2"
+    icon: "linkedin"
+
+blog:
+  base_url: "https://ktherage.github.io"
+  feeds:
+    en: "feed.json"
+    fr: "fr/feed.json"
+  max_articles: 3
+
+github:
+  top_repos_count: 5
+  recent_repos_count: 5
+
+languages:
+  PHP: "777BB4"
+  TypeScript: "3178C6"
+  JavaScript: "F7DF1E"
+  HTML: "E34F26"
+  CSS: "1572B6"
+  Python: "3776AB"
+  Go: "00ADD8"
+  Rust: "000000"
+  Shell: "89E051"
+  Dockerfile: "384D54"
+  Makefile: "427819"
+  Twig: "555555"
