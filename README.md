@@ -44,7 +44,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Repos-17-blue?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repositories"/>  <img src="https://img.shields.io/badge/Stars-2-yellow?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Stars"/>    <img src="https://img.shields.io/badge/Followers-8-orange?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Followers"/></p>
+  <img src="https://img.shields.io/badge/Repos-17-blue?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repositories"/>  <img src="https://img.shields.io/badge/Stars-2-yellow?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Stars"/>    <img src="https://img.shields.io/badge/Followers-9-orange?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Followers"/></p>
 
 ---
 
