@@ -44,7 +44,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Repos-17-blue?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repositories"/>  <img src="https://img.shields.io/badge/Stars-2-yellow?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Stars"/>    <img src="https://img.shields.io/badge/Followers-9-orange?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Followers"/></p>
+  <img src="https://img.shields.io/badge/Repos-17-blue?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repositories"/>  <img src="https://img.shields.io/badge/Stars-2-yellow?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Stars"/>    <img src="https://img.shields.io/badge/Followers-10-orange?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Followers"/></p>
 
 ---
 
@@ -83,7 +83,7 @@ Les logs disaient que le cache fonctionnait. Le filesystem pouvait en témoigner
 
 | Projet | Dernier Push |
 |--------|-------------|
-| [ktherage](https://github.com/ktherage/ktherage) | 15 Sep 2026 |
+| [ktherage](https://github.com/ktherage/ktherage) | 21 Sep 2026 |
 | [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | 8 Sep 2026 |
 | [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | 7 Sep 2026 |
 | [symfony-review-mcp](https://github.com/ktherage/symfony-review-mcp) | 10 Aug 2026 |
