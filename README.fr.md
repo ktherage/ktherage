@@ -53,8 +53,8 @@
 | Projet | Description | ⭐ |
 |--------|-------------|-----|
 | [symfony-review-mcp](https://github.com/ktherage/symfony-review-mcp) | A RAG-powered MCP server that reviews your Symfony code the way 20 years of core... | 2 |
-| [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | Personnal website of Kévin Thérage | 0 |
 | [ktherage](https://github.com/ktherage/ktherage) | My GitHub Profile | 0 |
+| [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | Personnal website of Kévin Thérage | 0 |
 | [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | Following rust-by-the-book | 0 |
 
 ---
@@ -83,8 +83,8 @@ Les logs disaient que le cache fonctionnait. Le filesystem pouvait en témoigner
 
 | Projet | Dernier Push |
 |--------|-------------|
+| [ktherage](https://github.com/ktherage/ktherage) | 5 Oct 2026 |
 | [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | 1 Oct 2026 |
-| [ktherage](https://github.com/ktherage/ktherage) | 28 Sep 2026 |
 | [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | 8 Sep 2026 |
 | [symfony-review-mcp](https://github.com/ktherage/symfony-review-mcp) | 10 Aug 2026 |
 
