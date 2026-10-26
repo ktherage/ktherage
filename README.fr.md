@@ -28,13 +28,13 @@
 ## 🛠️ Stack Technique
 
 <p align="center">
-    <img src="https://img.shields.io/badge/PHP+52.3%25-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP"/>
-    <img src="https://img.shields.io/badge/Twig+24.7%25-555555?style=for-the-badge&amp;logo=twig&amp;logoColor=white" alt="Twig"/>
-    <img src="https://img.shields.io/badge/JavaScript+6.8%25-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=white" alt="JavaScript"/>
-    <img src="https://img.shields.io/badge/CSS+6.2%25-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS"/>
-    <img src="https://img.shields.io/badge/TypeScript+5.8%25-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/>
-    <img src="https://img.shields.io/badge/Gherkin+3.3%25-555555?style=for-the-badge&amp;logo=gherkin&amp;logoColor=white" alt="Gherkin"/>
-    <img src="https://img.shields.io/badge/Makefile+0.7%25-427819?style=for-the-badge&amp;logo=makefile&amp;logoColor=white" alt="Makefile"/>
+    <img src="https://img.shields.io/badge/PHP+48.8%25-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP"/>
+    <img src="https://img.shields.io/badge/Twig+23.6%25-555555?style=for-the-badge&amp;logo=twig&amp;logoColor=white" alt="Twig"/>
+    <img src="https://img.shields.io/badge/TypeScript+8.4%25-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/>
+    <img src="https://img.shields.io/badge/CSS+6.6%25-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS"/>
+    <img src="https://img.shields.io/badge/JavaScript+6.3%25-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=white" alt="JavaScript"/>
+    <img src="https://img.shields.io/badge/Gherkin+5.2%25-555555?style=for-the-badge&amp;logo=gherkin&amp;logoColor=white" alt="Gherkin"/>
+    <img src="https://img.shields.io/badge/Makefile+0.8%25-427819?style=for-the-badge&amp;logo=makefile&amp;logoColor=white" alt="Makefile"/>
     <img src="https://img.shields.io/badge/Dockerfile+0.1%25-384D54?style=for-the-badge&amp;logo=dockerfile&amp;logoColor=white" alt="Dockerfile"/>
     <img src="https://img.shields.io/badge/Rust+0.1%25-000000?style=for-the-badge&amp;logo=rust&amp;logoColor=white" alt="Rust"/>
   </p>
@@ -44,7 +44,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Repos-17-blue?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repositories"/>  <img src="https://img.shields.io/badge/Stars-2-yellow?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Stars"/>    <img src="https://img.shields.io/badge/Followers-10-orange?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Followers"/></p>
+  <img src="https://img.shields.io/badge/Repos-18-blue?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repositories"/>  <img src="https://img.shields.io/badge/Stars-2-yellow?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Stars"/>    <img src="https://img.shields.io/badge/Followers-10-orange?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Followers"/></p>
 
 ---
 
@@ -53,9 +53,9 @@
 | Projet | Description | ⭐ |
 |--------|-------------|-----|
 | [symfony-review-mcp](https://github.com/ktherage/symfony-review-mcp) | A RAG-powered MCP server that reviews your Symfony code the way 20 years of core... | 2 |
-| [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | Following rust-by-the-book | 0 |
 | [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | Personnal website of Kévin Thérage | 0 |
 | [ktherage](https://github.com/ktherage/ktherage) | My GitHub Profile | 0 |
+| [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | Following rust-by-the-book | 0 |
 
 ---
 
@@ -71,7 +71,7 @@ Vos cacheHeaders API Platform disent public, Symfony répond private, max-age=0.
 
 Demandez à un LLM de review votre code et vous obtiendrez des conseils génériques. Donnez-lui 10 000 code reviews du Core Symfony en référence — et il produira des reviews qui sonnent comme si nicolas...
 
-### [Le cache qui ne fonctionnait pas : une histoire de sérialisation chez Symfony](https://ktherage.github.io/fr/blog/2026/le-cache-qui-ne-fonctionnait-pas/)
+### [Le cache qui ne fonctionnait pas : une histoire de sérialisation chez Symfony](https://ktherage.github.io/fr/blog/2026/the-cache-that-silently-wasnt/)
 <sub>10 juin 2026 · Symfony, PHP, Debug, Cache, Sérialisation</sub>
 
 Les logs disaient que le cache fonctionnait. Le filesystem pouvait en témoigner. Voici comment une Closure cachée dans getInfo(), une gestion d&#039;exception silencieuse, et une valeur de retour ignorée o...
@@ -83,9 +83,9 @@ Les logs disaient que le cache fonctionnait. Le filesystem pouvait en témoigner
 
 | Projet | Dernier Push |
 |--------|-------------|
+| [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | 21 Oct 2026 |
+| [ktherage](https://github.com/ktherage/ktherage) | 19 Oct 2026 |
 | [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | 15 Oct 2026 |
-| [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | 13 Oct 2026 |
-| [ktherage](https://github.com/ktherage/ktherage) | 12 Oct 2026 |
 | [symfony-review-mcp](https://github.com/ktherage/symfony-review-mcp) | 10 Aug 2026 |
 
 ---
