@@ -84,8 +84,8 @@ The logs said the cache was working. The filesystem could testify to it. Here is
 
 | Project | Last Push |
 |---------|-----------|
-| [ansible-advanced-lab](https://github.com/ktherage/ansible-advanced-lab) | Oct 30, 2026 |
-| [ktherage](https://github.com/ktherage/ktherage) | Oct 26, 2026 |
+| [ansible-advanced-lab](https://github.com/ktherage/ansible-advanced-lab) | Nov 6, 2026 |
+| [ktherage](https://github.com/ktherage/ktherage) | Nov 2, 2026 |
 | [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | Oct 21, 2026 |
 | [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | Oct 15, 2026 |
 | [symfony-review-mcp](https://github.com/ktherage/symfony-review-mcp) | Aug 10, 2026 |
