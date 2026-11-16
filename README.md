@@ -44,7 +44,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Repos-19-blue?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repositories"/>  <img src="https://img.shields.io/badge/Stars-2-yellow?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Stars"/>    <img src="https://img.shields.io/badge/Followers-9-orange?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Followers"/></p>
+  <img src="https://img.shields.io/badge/Repos-19-blue?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repositories"/>  <img src="https://img.shields.io/badge/Stars-2-yellow?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Stars"/>    <img src="https://img.shields.io/badge/Followers-10-orange?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Followers"/></p>
 
 ---
 
@@ -53,8 +53,8 @@
 | Project | Description | ⭐ |
 |---------|-------------|-----|
 | [symfony-review-mcp](https://github.com/ktherage/symfony-review-mcp) | A RAG-powered MCP server that reviews your Symfony code the way 20 years of core... | 2 |
-| [ansible-advanced-lab](https://github.com/ktherage/ansible-advanced-lab) |  | 0 |
 | [ktherage](https://github.com/ktherage/ktherage) | My GitHub Profile | 0 |
+| [ansible-advanced-lab](https://github.com/ktherage/ansible-advanced-lab) |  | 0 |
 | [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | Personnal website of Kévin Thérage | 0 |
 | [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | Following rust-by-the-book | 0 |
 
@@ -84,8 +84,8 @@ The logs said the cache was working. The filesystem could testify to it. Here is
 
 | Project | Last Push |
 |---------|-----------|
+| [ktherage](https://github.com/ktherage/ktherage) | Nov 9, 2026 |
 | [ansible-advanced-lab](https://github.com/ktherage/ansible-advanced-lab) | Nov 6, 2026 |
-| [ktherage](https://github.com/ktherage/ktherage) | Nov 2, 2026 |
 | [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | Oct 21, 2026 |
 | [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | Oct 15, 2026 |
 | [symfony-review-mcp](https://github.com/ktherage/symfony-review-mcp) | Aug 10, 2026 |
