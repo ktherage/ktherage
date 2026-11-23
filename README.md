@@ -28,14 +28,15 @@
 ## 🛠️ Tech Stack
 
 <p align="center">
-    <img src="https://img.shields.io/badge/PHP+48.6%25-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP"/>
-    <img src="https://img.shields.io/badge/Twig+23.6%25-555555?style=for-the-badge&amp;logo=twig&amp;logoColor=white" alt="Twig"/>
-    <img src="https://img.shields.io/badge/TypeScript+8.4%25-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/>
-    <img src="https://img.shields.io/badge/CSS+6.6%25-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS"/>
+    <img src="https://img.shields.io/badge/PHP+48.5%25-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP"/>
+    <img src="https://img.shields.io/badge/Twig+23.5%25-555555?style=for-the-badge&amp;logo=twig&amp;logoColor=white" alt="Twig"/>
+    <img src="https://img.shields.io/badge/TypeScript+8.3%25-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/>
+    <img src="https://img.shields.io/badge/CSS+6.5%25-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS"/>
     <img src="https://img.shields.io/badge/JavaScript+6.3%25-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=white" alt="JavaScript"/>
     <img src="https://img.shields.io/badge/Gherkin+5.2%25-555555?style=for-the-badge&amp;logo=gherkin&amp;logoColor=white" alt="Gherkin"/>
-    <img src="https://img.shields.io/badge/Makefile+0.8%25-427819?style=for-the-badge&amp;logo=makefile&amp;logoColor=white" alt="Makefile"/>
+    <img src="https://img.shields.io/badge/Makefile+0.9%25-427819?style=for-the-badge&amp;logo=makefile&amp;logoColor=white" alt="Makefile"/>
     <img src="https://img.shields.io/badge/Dockerfile+0.5%25-384D54?style=for-the-badge&amp;logo=dockerfile&amp;logoColor=white" alt="Dockerfile"/>
+    <img src="https://img.shields.io/badge/Shell+0.2%25-89E051?style=for-the-badge&amp;logo=shell&amp;logoColor=white" alt="Shell"/>
     <img src="https://img.shields.io/badge/Rust+0.1%25-000000?style=for-the-badge&amp;logo=rust&amp;logoColor=white" alt="Rust"/>
   </p>
 
@@ -53,8 +54,8 @@
 | Project | Description | ⭐ |
 |---------|-------------|-----|
 | [symfony-review-mcp](https://github.com/ktherage/symfony-review-mcp) | A RAG-powered MCP server that reviews your Symfony code the way 20 years of core... | 2 |
-| [ktherage](https://github.com/ktherage/ktherage) | My GitHub Profile | 0 |
 | [ansible-advanced-lab](https://github.com/ktherage/ansible-advanced-lab) |  | 0 |
+| [ktherage](https://github.com/ktherage/ktherage) | My GitHub Profile | 0 |
 | [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | Personnal website of Kévin Thérage | 0 |
 | [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | Following rust-by-the-book | 0 |
 
@@ -84,8 +85,8 @@ The logs said the cache was working. The filesystem could testify to it. Here is
 
 | Project | Last Push |
 |---------|-----------|
-| [ktherage](https://github.com/ktherage/ktherage) | Nov 9, 2026 |
-| [ansible-advanced-lab](https://github.com/ktherage/ansible-advanced-lab) | Nov 6, 2026 |
+| [ansible-advanced-lab](https://github.com/ktherage/ansible-advanced-lab) | Nov 20, 2026 |
+| [ktherage](https://github.com/ktherage/ktherage) | Nov 16, 2026 |
 | [ktherage.github.io](https://github.com/ktherage/ktherage.github.io) | Oct 21, 2026 |
 | [rust-by-the-book](https://github.com/ktherage/rust-by-the-book) | Oct 15, 2026 |
 | [symfony-review-mcp](https://github.com/ktherage/symfony-review-mcp) | Aug 10, 2026 |
